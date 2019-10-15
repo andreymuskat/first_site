@@ -133,10 +133,12 @@ margin-top:30px;
 	left: 250px;
 }
 .text-photo-left{
-	margin-left: 88px;
+	text-align:center;
 	font-family: nimbus-sans-condensed, arial;
 	font-size: 22px;
     font-weight: 900px;
+	letter-spacing: 2px;
+	color: #fff;
 }
 
 .photo-center{
@@ -144,10 +146,12 @@ margin-top:30px;
 left: 735px;
 }
 .text-photo-center{
-	margin-left: 110px;
+	text-align:center;
 	font-family: nimbus-sans-condensed, arial;
 	font-size: 22px;
     font-weight: 900px;
+	letter-spacing: 2px;
+	color: #fff;
 }
 
 
@@ -158,8 +162,37 @@ left: 735px;
 }
 
 .text-photo-right{
-	margin-left: 80px;
+	text-align:center;
 	font-family: nimbus-sans-condensed, arial;
 	font-size: 22px;
     font-weight: 900px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.photo-center-project{
+	background-image:url(https://sun9-23.userapi.com/c855324/v855324858/129cdf/sMJ-bE4Jhes.jpg);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top:65px;
+	width:1920px;
+	height:610px;
+}
+
+
+.text-1-center-project{
+	margin-top:260px;
+	text-align:center;
+	font-family: nimbus-sans-condensed,arial;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+
+h2{
+	text-align:center;
+	font-family: nimbus-sans-extended,arial;
+    font-size: 32px;
+    letter-spacing: 7px;
+    color: #fff;
 }
