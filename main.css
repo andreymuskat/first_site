@@ -1,10 +1,16 @@
 
 body{
-background-size: 100%;
+position:relative;	
 background-color: #ebebe5;
 margin-left:0px;
-
 }
+
+.white-background{
+	width:1920px;
+    height:1920px;
+	background-color:white;
+}
+
 
 .grid1 {
 display: grid;
@@ -150,7 +156,10 @@ font-weight: 900px;
 letter-spacing: 2px;
 color: black;
 }
-
+.text-photo-left-svet:hover{
+	color: red;
+	transition: top 1s ease;
+}
 h1{
 text-align:center;
 font-family: nimbus-sans-condensed, arial;
@@ -187,16 +196,35 @@ letter-spacing: 2px;
 color: black;
 }
 
-.white-background{
-	width:1920px;
-    height:1920px;
-	background-color:white;
-}
 
 
 .center-project{
 width:1920px;
 height:675px;
+}
+
+.center-project-knopcka-1{
+	width:1920px;
+  position: absolute;
+	display: flex;
+    justify-content: center;
+}
+.center-project-knopcka:hover{
+	color: black;
+	background-color: white;
+	transition: all 0.1s ease;
+}
+.center-project-knopcka{
+	text-align: center;
+	width: 220px;
+	height: 30px;
+	border: 2px solid white;
+	color: white;
+	cursor: pointer;
+	font-weight: 900;
+	padding-top: 12px;
+	letter-spacing: 1px;
+	font-size: 18px;
 }
 
 .photo-center-project{
@@ -206,6 +234,7 @@ position:absolute;
 margin-top:65px;
 width:1920px;
 height:610px;
+
 }
 
 
@@ -228,7 +257,7 @@ color: #fff;
 
 .posledniy-block{
 width:1920px;
-height:610px;
+height:800px;
 }
 
 .posledniy-block-1{
@@ -258,7 +287,7 @@ grid-area: post-1;
 	width:375px;
     height:80px;
 	left:515px;
-	bottom:29px;
+	bottom:85px;
 	
 }
 .text-post-1{
@@ -332,4 +361,17 @@ grid-area: post-3;
 
 h3{
 bottom:0;
+}
+
+.author{
+	width:1920px;
+    height:253px;
+	background-color:white;
+}
+
+
+.podval{
+	width:1920px;
+    height:41px;
+	background-color:black;
 }
