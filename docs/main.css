@@ -1,4 +1,3 @@
-
 body{
 position:relative;	
 background-color: #ebebe5;
@@ -138,28 +137,30 @@ margin-top:30px;
 }
 
 .posle-slide{
-margin-top:45px;
+margin-top:60px;
 position:relative;
 width:1920px;
-height:445px;
+height:520px;
 }
 
 .photo-left{
 position:absolute;
 left: 250px;
 }
+
+.photo-left:hover{
+	color: #b7b09c;
+}
+
 .text-photo-left{
+margin-top: 4%;
 text-align:center;
-font-family: nimbus-sans-condensed, arial;
-font-size: 22px;
+font-family: "Staatliches" , cursive;
+font-size: 30px;
 font-weight: 900px;
 letter-spacing: 2px;
-color: black;
 }
-.text-photo-left-svet:hover{
-	color: red;
-	transition: top 1s ease;
-}
+
 h1{
 text-align:center;
 font-family: nimbus-sans-condensed, arial;
@@ -171,29 +172,37 @@ color: black;
 .photo-center{
 position:absolute;
 left: 735px;
+}
 
+.photo-center:hover{
+	color: #b7b09c;
 }
 
 .text-photo-center{
+margin-top: 4%;
 text-align:center;
-font-family: nimbus-sans-condensed, arial;
-font-size: 22px;
+font-family: "Staatliches" , cursive;
+font-size: 30px;
 font-weight: 900px;
 letter-spacing: 2px;
-color: black;
 }
 
 .photo-right{
 position:absolute;
 left: 1220px;
 }
+
+.photo-right:hover{
+	color: #b7b09c;
+}
+
 .text-photo-right{
+margin-top: 4%;
 text-align:center;
-font-family: nimbus-sans-condensed, arial;
-font-size: 22px;
+font-family: "Staatliches" , cursive;
+font-size: 30px;
 font-weight: 900px;
 letter-spacing: 2px;
-color: black;
 }
 
 
@@ -209,11 +218,13 @@ height:675px;
 	display: flex;
     justify-content: center;
 }
+
 .center-project-knopcka:hover{
 	color: black;
 	background-color: white;
 	transition: all 0.1s ease;
 }
+
 .center-project-knopcka{
 	text-align: center;
 	width: 220px;
@@ -221,11 +232,13 @@ height:675px;
 	border: 2px solid white;
 	color: white;
 	cursor: pointer;
-	font-weight: 900;
-	padding-top: 12px;
-	letter-spacing: 1px;
-	font-size: 18px;
+	padding-top: 5px;
+	letter-spacing: 4px;
+	font-size: 23px;
+	font-family: "Staatliches" , cursive;
+	top:30px;
 }
+
 
 .photo-center-project{
 background-image:url(image/портной.jpg);
@@ -274,6 +287,7 @@ grid-template-rows: repeat(2, 340px);
 grid-template-columns: repeat(2, 890px);
 grid-gap: 30px;
 }
+
 .post-1 {
 grid-area: post-1;
 }
@@ -374,4 +388,5 @@ bottom:0;
 	width:1920px;
     height:41px;
 	background-color:black;
+	color: #7b7b7b;
 }
