@@ -295,6 +295,10 @@ grid-gap: 30px;
 grid-area: post-1;
 }
 
+.post-1:hover{
+	color: #b7b09c;
+}
+
 .block-text-post-1-h3{
 	position:absolute;
 }
@@ -314,12 +318,15 @@ grid-area: post-1;
     font-size: 1em;
     line-height: 1.5em;
     text-transform: none;
-    color: #707372;
 	text-align:right;
 }
 
 .post-2 {
 grid-area:post-2;
+}
+
+.post-2:hover{
+	color: #b7b09c;
 }
 
 .block-text-post-2-h3{
@@ -343,12 +350,15 @@ grid-area:post-2;
     line-height: 1.5em;
     margin: 0;
     text-transform: none;
-    color: #707372;
 	text-align:left;
 }
 
 .post-3 {
 grid-area: post-3;
+}
+
+.post-3:hover{
+	color: #b7b09c;
 }
 
 .block-text-post-3-h3{
@@ -372,7 +382,6 @@ grid-area: post-3;
     line-height: 1.5em;
     margin: 0;
     text-transform: none;
-    color: #707372;
 	text-align:left;
 }
 
