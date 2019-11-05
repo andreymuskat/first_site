@@ -393,15 +393,70 @@ font-size: 20px;
 }
 
 .author{
+	position:relative;
 	width:1920px;
     height:253px;
 	background-color:white;
 }
 
+.contact-details-1 {
+	float:left;
+	position:relative;
+	width:550px;
+    height:253px;
+}
 
-.podval{
+.contact-details-2{
+	top:30%;
+	right:0;
+	position:absolute;
+    width:180px;
+    height:80px;
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: .75rem;
+}
+
+.orders-1{
+	position:absolute;
+	left:550px;
+	width:160px;
+    height:253px;
+}
+
+.orders-2{
+}
+
+.help{
+	position:absolute;
+	left:710px;
+	width:160px;
+    height:253px;
+}
+
+.about-us{
+	position:absolute;
+	left:870px;
+	width:160px;
+    height:253px;
+}
+
+.follow{
+	position:absolute;
+	left:1030px;
+	width:890px;
+    height:253px;
+}
+
+.podval-1{
+	position:relative;
 	width:1920px;
     height:41px;
 	background-color:black;
 	color: #7b7b7b;
 }
+.podval-1-1{
+	position:absolute;
+	margin-top:10px;
+	margin-left:35px
+}
+
