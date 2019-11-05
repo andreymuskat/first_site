@@ -25,6 +25,7 @@ color: white;
 padding: 7px;
 margin-top: 1.25px;
 margin-bottom: 1px;
+
 }
 
 .box1:nth-child(1)
@@ -97,34 +98,35 @@ margin-top: 30px;
 .box2:nth-child(1)
 {
 grid-column: span 2;
-font-family: nimbus-sans-condensed,arial;
-font-size: 1rem;
-font-weight: 600;
+font-size: 20px;
+font-weight: 600px;
 height:75px;
 box-sizing:box-border;
 cursor:pointer;
-
-
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
 }
 .box2:nth-child(2)
 {
 grid-column: span 1;
-font-family: nimbus-sans-condensed,arial;
-font-size: 1rem;
-font-weight: 600;
+font-size: 20px;
+font-weight: 600px;
 height:75px;
 box-sizing:box-border;
 cursor:pointer;
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
 }
 .box2:nth-child(3)
 {
 grid-column: span 1;
-font-family: nimbus-sans-condensed,arial;
-font-size: 1rem;
-font-weight: 600;
+font-size: 20px;
+font-weight: 600px;
 height:75px;
 box-sizing:box-border;
 cursor:pointer;
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
 }
 
 .horizontal-line{
@@ -146,6 +148,7 @@ height:520px;
 .photo-left{
 position:absolute;
 left: 250px;
+color: black;
 }
 
 .photo-left:hover{
@@ -172,6 +175,7 @@ color: black;
 .photo-center{
 position:absolute;
 left: 735px;
+color: black;
 }
 
 .photo-center:hover{
@@ -190,6 +194,7 @@ letter-spacing: 2px;
 .photo-right{
 position:absolute;
 left: 1220px;
+color: black;
 }
 
 .photo-right:hover{
@@ -222,13 +227,12 @@ height:675px;
 .center-project-knopcka:hover{
 	color: black;
 	background-color: white;
-	transition: all 0.1s ease;
 }
 
 .center-project-knopcka{
 	text-align: center;
-	width: 220px;
-	height: 30px;
+	width: 200px;
+	height: 34px;
 	border: 2px solid white;
 	color: white;
 	cursor: pointer;
@@ -236,7 +240,6 @@ height:675px;
 	letter-spacing: 4px;
 	font-size: 23px;
 	font-family: "Staatliches" , cursive;
-	top:30px;
 }
 
 
@@ -375,6 +378,9 @@ grid-area: post-3;
 
 h3{
 bottom:0;
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
+font-size: 20px;
 }
 
 .author{
