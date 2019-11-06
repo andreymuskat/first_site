@@ -58,10 +58,55 @@ width:1920px;
 }
 
 .swiper-slide-background{
+	background-image:url(image/гора.jpg);
 	position:absolute;
 	width:1920px;
     height:1029px;
 	top: -30px;
+}
+
+.text-swiper-slide-background{
+	margin-top:260px;
+text-align:center;
+font-family: nimbus-sans-condensed,arial;
+font-size: 25px;
+letter-spacing: 5px;
+color: #fff;
+}
+
+h1{
+text-align:center;
+font-family: nimbus-sans-extended,arial;
+font-size: 80px;
+font-weight: 200;
+letter-spacing: 7px;
+color: #fff;
+}
+
+.swiper-slide-knopcka{
+	text-align: center;
+	width: 250px;
+	height: 40px;
+	border: 3px solid white;
+	color: white;
+	cursor: pointer;
+	padding-top: 5px;
+	letter-spacing: 4px;
+	font-size: 23px;
+	font-family: "Staatliches" , cursive;
+}
+
+.swiper-slide-knopcka:hover{
+	color: black;
+	background-color: white;
+}
+
+
+.swiper-slide-knopcka-1{
+	width:1920px;
+  position: absolute;
+	display: flex;
+    justify-content: center;
 }
 
 .cherdak{
@@ -164,13 +209,6 @@ font-weight: 900px;
 letter-spacing: 2px;
 }
 
-h1{
-text-align:center;
-font-family: nimbus-sans-condensed, arial;
-font-size: 22px;
-font-weight: 900px;
-color: black;
-}
 
 .photo-center{
 position:absolute;
@@ -395,7 +433,7 @@ font-size: 20px;
 .author{
 	position:relative;
 	width:1920px;
-    height:253px;
+    height:310px;
 	background-color:white;
 }
 
@@ -423,7 +461,10 @@ font-size: 20px;
     height:253px;
 }
 
-.orders-2{
+.orders-2-1{
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
+font-size: 20px;
 }
 
 .help{
@@ -433,6 +474,12 @@ font-size: 20px;
     height:253px;
 }
 
+.help-2-1{
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
+font-size: 20px;
+}
+
 .about-us{
 	position:absolute;
 	left:870px;
@@ -440,11 +487,23 @@ font-size: 20px;
     height:253px;
 }
 
+.about-us-2-1{
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
+font-size: 20px;
+}
+
 .follow{
 	position:absolute;
 	left:1030px;
 	width:890px;
     height:253px;
+}
+
+.follow-2-1{
+font-family: "Staatliches" , cursive;
+letter-spacing:1px;
+font-size: 20px;
 }
 
 .podval-1{
