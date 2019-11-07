@@ -66,32 +66,42 @@ width:1920px;
 }
 
 .text-swiper-slide-background{
-	margin-top:260px;
+	left:690px;
+	position:absolute;
+	margin-top:390px;
 text-align:center;
 font-family: nimbus-sans-condensed,arial;
-font-size: 25px;
+font-size: 18px;
 letter-spacing: 5px;
 color: #fff;
 }
 
 h1{
+	margin-top:425px;
 text-align:center;
 font-family: nimbus-sans-extended,arial;
-font-size: 80px;
+font-size: 70px;
 font-weight: 200;
 letter-spacing: 7px;
 color: #fff;
 }
 
+.swiper-slide-knopcka-1{
+	width:1920px;
+  position: absolute;
+	display: flex;
+    justify-content: center;
+}
+
 .swiper-slide-knopcka{
 	text-align: center;
-	width: 250px;
-	height: 40px;
-	border: 3px solid white;
+	width: 230px;
+	height: 35px;
+	border: 2px solid white;
 	color: white;
 	cursor: pointer;
 	padding-top: 5px;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	font-size: 23px;
 	font-family: "Staatliches" , cursive;
 }
@@ -101,13 +111,10 @@ color: #fff;
 	background-color: white;
 }
 
-
-.swiper-slide-knopcka-1{
-	width:1920px;
-  position: absolute;
-	display: flex;
-    justify-content: center;
+.text-swiper-slide-knopcka{
+	margin-top:1px;
 }
+
 
 .cherdak{
 position:absolute;
